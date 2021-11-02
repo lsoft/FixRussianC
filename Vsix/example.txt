@@ -1,0 +1,15 @@
+somecooltext какойтоклевыйтекст someсooltext
+какойтоклевыйтекст someсooltext somecooltext
+someсooltext какойтоклевыйтекст somecooltext
+ somecooltext какойтоклевыйтекст someсooltext
+ какойтоклевыйтекст someсooltext somecooltext
+ someсooltext какойтоклевыйтекст somecooltext
+somecooltext какойтоклевыйтекст someсooltext 
+какойтоклевыйтекст someсooltext somecooltext 
+someсooltext какойтоклевыйтекст somecooltext 
+сfirst
+lastс
+firstсoccurency secondсoccurency
+ firstСoccurency secondСoccurency 
+ firstССoccurency secondССoccurency 
+ firstСССoccurency secondСССoccurency 

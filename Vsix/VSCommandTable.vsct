@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="Vsix">
+
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="Vsix" value="{20c6536c-78f8-44ad-b6cc-51551baffc3f}">
+    </GuidSymbol>
+
+      <GuidSymbol name="CmdSet" value="{8B1DD456-2340-45be-8748-641E1EF88F73}">
+      </GuidSymbol>
+
+    </Symbols>
+</CommandTable>
