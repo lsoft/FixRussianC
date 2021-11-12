@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="FixRussianC.7f3692ad-4245-49af-b31a-61ca805e5a0c" Version="1.1" Language="en-US" Publisher="lsoft" />
         <DisplayName>Fix Russian C</DisplayName>
-        <Description xml:space="preserve">Fix Russias letter C included in English word.</Description>
+        <Description xml:space="preserve">Fix Russian letter C included in an English word.</Description>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Preview>true</Preview>
