@@ -1,15 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixRussianC2019", "FixRussianC2019\FixRussianC2019.csproj", "{1C04B08D-58BD-441E-A9E6-69889F9254A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixRussianC.2019", "FixRussianC.2019\FixRussianC.2019.csproj", "{1C04B08D-58BD-441E-A9E6-69889F9254A4}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FixRussianC.Shared", "FixRussianC.Shared\FixRussianC.Shared.shproj", "{7212D05E-9728-4035-8FB3-02766653E64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixRussianC.2022", "FixRussianC.2022\FixRussianC.2022.csproj", "{1C04B08D-58BD-441E-A9E6-69889F9254A5}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		FixRussianC.Shared\FixRussianC.Shared.projitems*{1c04b08d-58bd-441e-a9e6-69889f9254a4}*SharedItemsImports = 4
+		FixRussianC.Shared\FixRussianC.Shared.projitems*{1c04b08d-58bd-441e-a9e6-69889f9254a5}*SharedItemsImports = 4
 		FixRussianC.Shared\FixRussianC.Shared.projitems*{7212d05e-9728-4035-8fb3-02766653e64a}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +24,10 @@ Global
 		{1C04B08D-58BD-441E-A9E6-69889F9254A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C04B08D-58BD-441E-A9E6-69889F9254A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C04B08D-58BD-441E-A9E6-69889F9254A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C04B08D-58BD-441E-A9E6-69889F9254A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C04B08D-58BD-441E-A9E6-69889F9254A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C04B08D-58BD-441E-A9E6-69889F9254A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C04B08D-58BD-441E-A9E6-69889F9254A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
