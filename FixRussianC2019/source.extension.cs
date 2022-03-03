@@ -9,9 +9,9 @@ namespace FixRussianC2019
     {
         public const string Id = "FixRussianC.7f3692ad-4245-49af-b31a-61ca805e5a0c";
         public const string Name = "Fix Russian C";
-        public const string Description = @"Fix Russias letter C included in English word.";
+        public const string Description = @"Fix Russian letter C included in an English word.";
         public const string Language = "en-US";
-        public const string Version = "1.1";
+        public const string Version = "1.2";
         public const string Author = "lsoft";
         public const string Tags = "";
     }

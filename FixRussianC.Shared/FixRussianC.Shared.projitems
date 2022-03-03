@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7212d05e-9728-4035-8fb3-02766653e64a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FixRussianC.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extension2019Package.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RedBorderFormatDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RussianCAdornmentTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RussianCAdornmentTaggerProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RussianCTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RussianCTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FixRussianC\Tag\RussianCTaggerProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\IntraTextAdornmentTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\IntraTextAdornmentTagTransformer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\ObservableCollection2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\RegexTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\VisibleWindowTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\AsyncRelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\ProvideToolboxControlAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\Theme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wpf\VisualTreeHelperEx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
