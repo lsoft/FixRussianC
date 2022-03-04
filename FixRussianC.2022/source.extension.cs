@@ -11,7 +11,7 @@ namespace FixRussianC
         public const string Name = "Fix Russian C 64";
         public const string Description = @"Fix Russian letter C included in an English word and a English letter C included in a Russian word.";
         public const string Language = "en-US";
-        public const string Version = "1.2";
+        public const string Version = "1.3";
         public const string Author = "lsoft";
         public const string Tags = "";
     }

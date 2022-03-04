@@ -98,17 +98,23 @@ namespace FixRussianC2019.Support
                 _invalidatedSpans.AddRange(spans);
 
                 if (wasEmpty && _invalidatedSpans.Count > 0)
-                    _view.VisualElement.Dispatcher.BeginInvoke(new Action(AsyncUpdate));
+                    _view?.VisualElement.Dispatcher.BeginInvoke(new Action(AsyncUpdate));
             }
         }
 
         private void AsyncUpdate()
         {
+            var view = _view;
+            if (view == null)
+            {
+                return;
+            }
+
             // Store the snapshot that we're now current with and send an event
             // for the text that has changed.
-            if (_snapshot != _view.TextBuffer.CurrentSnapshot)
+            if (_snapshot != view.TextBuffer.CurrentSnapshot)
             {
-                _snapshot = _view.TextBuffer.CurrentSnapshot;
+                _snapshot = view.TextBuffer.CurrentSnapshot;
 
                 var translatedAdornmentCache = new Dictionary<SnapshotSpan, TAdornment>();
 
@@ -153,7 +159,13 @@ namespace FixRussianC2019.Support
 
         private void HandleLayoutChanged(object sender, TextViewLayoutChangedEventArgs e)
         {
-            SnapshotSpan visibleSpan = _view.TextViewLines.FormattedSpan;
+            var view = _view;
+            if (view == null)
+            {
+                return;
+            }
+
+            SnapshotSpan visibleSpan = view.TextViewLines.FormattedSpan;
 
             // Filter out the adornments that are no longer visible.
             List<SnapshotSpan> toRemove = new List<SnapshotSpan>(
