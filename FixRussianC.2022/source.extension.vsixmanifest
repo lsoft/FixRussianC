@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="FixRussianC.7f3692ad-4245-49af-b31a-61ca805e5a0d" Version="1.3" Language="en-US" Publisher="lsoft" />
         <DisplayName>Fix Russian C 64</DisplayName>
-        <Description xml:space="preserve">Fix Russian letter C included in an English word and a English letter C included in a Russian word.</Description>
+        <Description xml:space="preserve">This VSIX highlights Russian letter C included in an English word and a English letter C included in a Russian word.</Description>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Preview>true</Preview>
